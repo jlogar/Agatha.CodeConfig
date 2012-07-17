@@ -39,6 +39,9 @@
     <Reference Include="Agatha.Common">
       <HintPath>..\packages\Agatha-Common-Castle-Windsor.1.3\lib\net40\Agatha.Common.dll</HintPath>
     </Reference>
+    <Reference Include="Agatha.ServiceLayer">
+      <HintPath>..\packages\Agatha-ServiceLayer-Castle-Windsor.1.3\lib\net40\Agatha.ServiceLayer.dll</HintPath>
+    </Reference>
     <Reference Include="Castle.Core">
       <HintPath>..\packages\Castle.Core.2.5.2\lib\NET35\Castle.Core.dll</HintPath>
     </Reference>
@@ -62,7 +65,10 @@
     <Compile Include="Client\ConfigurableRequestProcessor.cs" />
     <Compile Include="Client\DebugRequestProcessorConfigurator.cs" />
     <Compile Include="Client\IConfigureProxy.cs" />
+    <Compile Include="Server\ConfigureServiceHostForDebug.cs" />
+    <Compile Include="Server\IConfigureServiceHost.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Server\ServiceHostWithAgathaRequestProcessor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
