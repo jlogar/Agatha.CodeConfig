@@ -1,7 +1,7 @@
 using System.ServiceModel;
 using System.ServiceModel.Channels;
 
-namespace Agatha.CodeConfig
+namespace Agatha.CodeConfig.Client
 {
     public interface IConfigureProxy
     {

@@ -1,6 +1,6 @@
 using Agatha.Common.WCF;
 
-namespace Agatha.CodeConfig
+namespace Agatha.CodeConfig.Client
 {
     /// <summary>
     /// <see cref="RequestProcessorProxy"/> derivate that enables us to configure the WCF endpoint

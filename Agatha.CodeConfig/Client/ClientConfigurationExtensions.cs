@@ -1,7 +1,7 @@
 ﻿using Agatha.Common;
 using Agatha.Common.WCF;
 
-namespace Agatha.CodeConfig
+namespace Agatha.CodeConfig.Client
 {
     public static class ClientConfigurationExtensions
     {
