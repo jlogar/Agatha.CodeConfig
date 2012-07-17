@@ -11,3 +11,5 @@ obj
 *.suo
 
 _ReSharper.*
+
+packages
