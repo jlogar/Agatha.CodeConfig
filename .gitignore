@@ -8,4 +8,6 @@ TestResults
 bin
 obj
 
-.suo
+*.suo
+
+_ReSharper.*
