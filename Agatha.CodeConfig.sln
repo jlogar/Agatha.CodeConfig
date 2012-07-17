@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agatha.CodeConfig", "Agatha.CodeConfig.csproj", "{526F0640-04A6-4822-AA3E-857E821F07BB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agatha.CodeConfig", "Agatha.CodeConfig\Agatha.CodeConfig.csproj", "{526F0640-04A6-4822-AA3E-857E821F07BB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
