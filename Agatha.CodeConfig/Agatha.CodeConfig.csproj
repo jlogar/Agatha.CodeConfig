@@ -63,7 +63,7 @@
   <ItemGroup>
     <Compile Include="Client\ClientConfigurationExtensions.cs" />
     <Compile Include="Client\ConfigurableRequestProcessor.cs" />
-    <Compile Include="Client\DebugRequestProcessorConfigurator.cs" />
+    <Compile Include="Client\DefaultRequestProcessorConfig.cs" />
     <Compile Include="Client\IConfigureProxy.cs" />
     <Compile Include="Server\DefaultServicehostConfig.cs" />
     <Compile Include="Server\IConfigureServiceHost.cs" />
